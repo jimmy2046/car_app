@@ -1,0 +1,45 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$gray-medium-light: #eaeaea;
+
+h2, h3, h4 {
+  text-align: center;    
+}
+
+p {
+  font-size: 18px;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.display-3 {
+  text-align: center;
+}
+
+.col-md-6 {
+  margin: 10px auto 10px auto; /* box center alignment */
+  border: 1px solid #0088dd;
+  padding: 20px;    
+}
+
+/* Header */
+.header {
+  margin: 10px auto 10px auto; /* box center alignment */
+  border: 1px solid #0088dd;
+  text-align: center;
+}
+
+.style-image-align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+/* footer */
+
+footer {
+
+}
+

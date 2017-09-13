@@ -1,2 +1,92 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">My Car Travel</h1>
+    <h2>(206) 257-9362</h2>
+    <h2>Welcome to My Car Travel</h2>
+    <h2>(Coming Soon)</h2>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="about-us">
+    <h2>About Us</h2>
+    <%= image_tag("car_front.jpeg", alt: "2017 Chrysler Front", class: "align-center", class: "img-responsive") %>
+    <h3>2017 Chrysler 300</h3>
+    <h4>BER8599</h4>
+    </div>
+  </div><!-- end of .row -->
+    
+  <div class="row">
+    <div class="col-md-6">
+      <%= image_tag("david_chong.jpeg", alt: "David Chong", class: "style-image-align-center") %>
+      <h3>David Chong</h3>
+      <h4>Your friendly driver David Chong.</h4>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag("car_rear.jpeg", alt: "2017 Chrysler Rear", class: "style-image-align-center img-responsive") %>
+      <h3>2017 Chrysler 300</h3>
+      <h4>BER8599</h4>        
+    </div>
+  </div><!-- end of .row -->
+
+  <div class="row">
+    <h2>Rates</h2>
+    <div class="col-md-6">
+      <h3>Our Rates</h3>
+      <ul>
+        <li>15-minute ride: US$10.</li>
+        <li>30-minute ride: US$20.</li>
+        <li>45-minute ride: US$30.</li>
+        <li>1-hour ride: US$40.</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>Estimated Fares</h3>
+      <p>Estimated fares to Sea-Tac Airport:</p>
+      <ul>
+        <li>Seattle (Downtown): US$20.</li>
+        <li>Ballard: US$20.</li>
+        <li>Bellevue: US$20.</li>
+        <li>Renton: US$10.</li>
+        <li>Burien: US$10.</li>
+        <li>Kent: US$20.</li>
+        </ul>
+    </div>
+  </div><!-- end of .row -->  
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Contact Us</h2>
+      <h3>Good communication is important!</h3>
+      <p>We love our customers, so feel free to contact us during normal business hours.</p>
+        
+      <!-- nested col-md-6 -->
+      <div class ="row">
+        <div class="col-md-6">
+          <h3>My Car Travel</h3>
+          <p>
+            13745 42nd Ave S<br />
+            Tukwila, WA 98168<br /><br />
+            (206) 257-9362
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h3>Hours</h3>
+          <p>
+            Monday - Friday: 9am - 5pm<br />
+            Saturday: By appointment<br />
+            Sunday: By appointment<br />
+            Email: jimmychong_st@yahoo.com
+          </p>
+        </div>
+      </div>        
+        
+    </div><!-- end of .col-md-6 -->      
+    <div class="col-md-6">
+      <iframe class="style-image-align-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.5493612861287!2d-122.28388024891018!3d47.47921040466051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490431f20d73789%3A0x6242dfce1882e886!2s13745+42nd+Ave+S%2C+Tukwila%2C+WA+98168!5e0!3m2!1sen!2sus!4v1505281740941" width="550" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>      
+    </div><!-- end of .col-md-6 -->      
+  </div><!-- end of .row -->
+    
+</div><!-- /.container -->
