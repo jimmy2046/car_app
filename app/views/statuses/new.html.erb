@@ -1,0 +1,14 @@
+<% provide(:title, "Status Update") %>
+
+<%= form_for :status, url: statuses_path do |f| %>
+
+<p>Status Update?</p>
+
+<%= f.select :mystatus, options_for_select(['Online', 'Offline', 'Working', 'Taking a break' , 'Waiting for order']), {}, class: "form-control" %>
+
+<p>
+  <br />
+  <%= f.submit "Submit", class: "btn btn-primary btn-lg"  %>
+</p>
+
+<% end %>

@@ -8,3 +8,5 @@ Car App Ruby on Rails project was created on Sept 12, 2017<br />
 ## Revision History
 * Sept 12, 2017: First draft
 * Sept 12, 2017: Home.html.erb 1st draft
+* Sept 26, 2017: Home.hmlt.erb 2nd draft
+* Sept 29, 2017: Added Statuses Controller and Status data model
