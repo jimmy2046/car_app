@@ -10,3 +10,6 @@ Car App Ruby on Rails project was created on Sept 12, 2017<br />
 * Sept 12, 2017: Home.html.erb 1st draft
 * Sept 26, 2017: Home.hmlt.erb 2nd draft
 * Sept 29, 2017: Added Statuses Controller and Status data model
+* Sept 29, 2017: In production.rb, I set config.assets.compile = true
+and run shell command: RAILS_ENV=production rake assets:precompile
+in order to comply with Bootstrap image class: "img-responsive"
