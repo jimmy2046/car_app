@@ -13,4 +13,6 @@ Car App Ruby on Rails project was created on Sept 12, 2017<br />
 * Sept 29, 2017: In production.rb, I set config.assets.compile = true
 and run shell command: RAILS_ENV=production rake assets:precompile
 in order to comply with Bootstrap image class: "img-responsive"
-* Sept 30, 2017: Added meta name=viewport tag in head section to make responsive web design for iPhone and Android mobile devises
+* Sept 30, 2017: Added meta name=viewport tag in head section to make responsive web design for iPhone and Android mobile devices
+* Sept 30, 2017: Adding Devise login Gem
+* Sept 30, 2017: Added Admin role for Devise Gem

@@ -1,0 +1,26 @@
+<% provide(:title, "Admin Menu") %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Admin Menu</h1>
+      <p>
+        <%= link_to 'Log in', new_admin_session_path, class: "btn btn-primary btn-lg" %>
+      </p>
+      <p>
+        <%= link_to 'Change password', edit_admin_registration_path, class: "btn btn-primary btn-lg" %>
+      </p>
+      <p>
+        <%= link_to 'Forgot your password?', new_admin_password_path, class: "btn btn-primary btn-lg" %>
+      </p>
+      <p>        
+          <%= link_to 'Update My Status', new_status_path, class: "btn btn-primary btn-lg" %>
+      </p>
+      <% if admin_signed_in? %>
+        <p>
+          <%= link_to "Sign out", destroy_admin_session_path, :method => :delete, class: "btn btn-primary btn-lg" %>        
+        </p>
+      <% end %>
+    </div><!-- end of .col -->
+  </div><!-- end of .row -->
+</div><!-- end of .container -->

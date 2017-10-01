@@ -5,8 +5,12 @@
       <h3 class="warning">(Under Development)</h3>
        <ul>
          <li><%= link_to('Home', root_path) %></li>
-         <li><a href="#">Reservations</a></li>
+         <li><%= link_to('Reservations', reservations_path) %></li>           
+         <li><%= link_to('Admin', adminmenu_path) %></li>
        </ul>
+       <% if admin_signed_in? %>
+         <p>Hello Jimmy, click <%= link_to('here', destroy_admin_session_path, :method => :delete) %> to sign out.</p>        
+       <% end %>
     </div>
   </div>
 </div>

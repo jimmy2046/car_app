@@ -2,9 +2,12 @@
 
 <%= form_for :status, url: statuses_path do |f| %>
 
-<p>Status Update?</p>
+<h2>Status Update</h2>
 
-<%= f.select :mystatus, options_for_select(['Has passenger(s)', 'Resting', 'Waiting for order']), {}, class: "form-control" %>
+<p>
+  New status: 
+  <%= f.select :mystatus, options_for_select(['Has passenger(s)', 'Resting', 'Waiting for order']), {}, class: "select1" %>
+</p>
 
 <p>
   <br />

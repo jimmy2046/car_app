@@ -9,13 +9,13 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_pages_home_url
     assert_response :success
-    assert_select "title", "Home | #{@base_title}"
+    assert_select "title", "#{@base_title}"
   end
 
-  test "should get reservation" do
-    get static_pages_reservation_url
+  test "should get reservations" do
+    get reservations_path
     assert_response :success
-    assert_select "title", "Reservation | #{@base_title}"      
+    assert_select "title", "Reservations | #{@base_title}"      
   end
 
 end

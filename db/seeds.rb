@@ -7,4 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # MyStatus
-Status.create(mystatus: "Online")
+Status.create(mystatus: "Waiting for order")
+
+# Admin user
+Admin.create(email: "jimmychong_st@yahoo.com",
+             password: "password",
+             password_confirmation: "password")
