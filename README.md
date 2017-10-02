@@ -5,6 +5,9 @@ Car App Ruby on Rails project was created on Sept 12, 2017<br />
 * Database: Postgresql 'car_app_development', 'car_app_test'
 * Ubuntu Linux: 16.04
 
+## Heroku Deployment
+Heroku URL: https://lit-falls-97897.herokuapp.com/
+
 ## Revision History
 * Sept 12, 2017: First draft
 * Sept 12, 2017: Home.html.erb 1st draft
@@ -16,3 +19,4 @@ in order to comply with Bootstrap image class: "img-responsive"
 * Sept 30, 2017: Added meta name=viewport tag in head section to make responsive web design for iPhone and Android mobile devices
 * Sept 30, 2017: Adding Devise login Gem
 * Sept 30, 2017: Added Admin role for Devise Gem
+* Sept 30, 2017: Added Reservations Javascript page

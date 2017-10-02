@@ -12,7 +12,7 @@ gem 'rails', '~> 5.1.3'
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Devise authentication
-gem 'devise'
+gem 'devise', '4.3.0'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
